@@ -2,7 +2,7 @@ window.cipher = {
   
   encode : (string,offset) =>
    {
-    let message = [];
+    let message = "";
       // ciclo para recorrer todas los caracteres de la frase 
     for (let i = 0; i < string.length; i ++) 
     {      
@@ -22,15 +22,15 @@ window.cipher = {
       const fromASCCII = String.fromCharCode(newPosition);
  
       // 6. agregando los caracteres a un vector
-      message[i] = fromASCCII; 
+      message += fromASCCII; 
     }
   // 7.Retornando el mensaje     
-  return message.join(""); 
+  return message; 
   },
-  
+
   decode: (string,offset) => 
   {
-    let message = [];
+    let message = "";
     for (let i = 0; i < string.length; i++) 
     {
       // 1.convertir a mayusculas el string
@@ -49,10 +49,10 @@ window.cipher = {
       const fromASCCII = String.fromCharCode(newPosition);
 
       // 6. agregando los caracteres a un vector
-      message[i] = fromASCCII;
+      message += fromASCCII; 
     }
   // 7.Mostrando el nuevo mensaje
-  return message.join("");
+  return message;
     
   }
   
