@@ -6,9 +6,8 @@ Modificando texto de introducción
 
 ## Funcionalidad
 
-Enlace de la aplicación
-![caeser-cipher](https://estephanyc.github.io/scl-2018-05-bc-core-pm/src/index.html)
 
+[Enlace a la aplicacion](https://estephanyc.github.io/scl-2018-05-bc-core-pm/src/index.html)
 
 ## Qué es el cifrado César
 Es uno de los primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por
