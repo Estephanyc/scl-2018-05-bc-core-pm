@@ -12,16 +12,16 @@ window.cipher = {
       // 2.convertir a codigo ASCII el caracter
       const toASCCII = string.charCodeAt(i);  
       
-      // 3.Obtener la nueva posicion en ASCCII
+      // 3.Obtener la nueva posición en ASCCII
       let newPosition = ((toASCCII - 65 + offset) % 26 ) + 65;
       
       // 4.No remplazar el caracter de los espacios
       if (toASCCII == 32){ newPosition = 32; }
       
-      // 5.convertir de ASCCII a caracter la nueva posicion
+      // 5.convertir de ASCCII a caracter la nueva posición
       const fromASCCII = String.fromCharCode(newPosition);
  
-      // 6. agregando los caracteres a un vector
+      // 6. agregando los caracteres al mensaje final
       message += fromASCCII; 
     }
   // 7.Retornando el mensaje     
@@ -39,19 +39,19 @@ window.cipher = {
       // 2.convertir a codigo ASCII el caracter
       const toASCCII = string.charCodeAt(i);
 
-      // 3.Obtener la nueva posicion en ASCCII
+      // 3.Obtener la nueva posición en ASCCII
       let newPosition = ((toASCCII + 65 - offset) % 26) + 65;
 
       // 4.No remplazar el caracter de los espacios
       if (toASCCII == 32) { newPosition = 32; }
 
-      // 5..convertir de ASCCII a caracter la nueva posicion
+      // 5.convertir de ASCCII a caracter la nueva posición
       const fromASCCII = String.fromCharCode(newPosition);
 
       // 6. agregando los caracteres a un vector
       message += fromASCCII; 
     }
-  // 7.Mostrando el nuevo mensaje
+  // 7.Retornando el mensaje 
   return message;
     
   }
