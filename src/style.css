@@ -1,25 +1,27 @@
 body
 {
   font-family: arial;
-  background-color:#e7e7e7;
+  background-color:#fffefe;
 }
-h1 {
-  color: #e9484d;
+h1
+{
+  color:#423a65;
 }
-
-h3 {
-  color: #4f4848;
+h3
+ {
+ color:#423a65;
 }
 
 #root
 {
-  width: 70%;
-  background: #ffffff;
-  margin: 0 auto;
-  margin-top: 80px;
-  padding: 30px;
-  border-radius: 30px;
-  text-align: center;
+     width: 60%;
+     background:#fafafa;
+     margin: 0 auto;
+     margin-top: 25px;
+     border: 10px solid #dddada;
+     padding: 30px;
+     text-align: center;
+
 }
 
 #string
@@ -42,7 +44,7 @@ h3 {
 
 }
 .button {
-  background: #e9484d;
+  background: #5a4da3;
   border: #e9484d;
   padding: 10px;
   color: white;
@@ -56,14 +58,13 @@ h3 {
 
 .button:hover {
   background: #66ce70;
-  border: #66ce70;
   border-radius: 5px;
   color:#ffffff;
   cursor: pointer;
 }
 #messageDiv {
   width: 60%;
-  background: #e9484d1f;
+  background: #e5e3e3fc;
   border-radius: 3px;
   height: 80px;
   padding-top: 10px;
