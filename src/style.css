@@ -1,6 +1,6 @@
 body
 {
-  font-family: arial;
+  font-family: 'Exo',  sans-serif;
   background-color:#fffefe;
 }
 h1
@@ -34,7 +34,7 @@ h3
   background: #faf7f7;
 
 }
-#offset {
+#offsetInput {
   width: 5%;
   border-radius: 3px;
   height: 20px;
@@ -72,5 +72,34 @@ h3
   margin-top: 20px;
     
 }
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?hu6hv');
+  src: url('fonts/icomoon.eot?hu6hv#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?hu6hv') format('truetype'), url('fonts/icomoon.woff?hu6hv') format('woff'), url('fonts/icomoon.svg?hu6hv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.icon-lock:before {
+  content: "\e98f";
+}
+
+.icon-unlocked:before {
+  margin-right: 5px;
+  content: "\e990";
+}

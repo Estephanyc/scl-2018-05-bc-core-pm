@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 
 
       <span>Indica el Nº</span>
-      <input type="text" value="" id="offset">
+      <input type="text" value="" id="offsetInput">
       <br>
 
       <h3>Escribe tu frase o palabra</h3>
@@ -27,8 +28,8 @@
       <input type="text" value="" id="string">
       <br>
 
-      <button type="button" class="button" onclick="encodeGetData()">Cifrar</button>
-      <button type="button" class="button" onclick="decodeGetData()">Descifrar</button>
+      <button type="button" class="button" onclick="encodeGetData()"><span class="icon-lock"></span>Cifrar</button>
+      <button type="button" class="button" onclick="decodeGetData()"><span class="icon-unlocked"></span>Descifrar</button>
       <button type="button" class="button" onclick="location.reload()">Limpiar</button>
 
    </form> 
@@ -39,6 +40,8 @@
 
 <script src="index.js"></script>
 <script src="cipher.js"></script>
+<!-- <script src="index-de-prueba.js"></script>
+<script src="cipher-de-prueba.js"></script> -->
 
 </body>
 </html>
