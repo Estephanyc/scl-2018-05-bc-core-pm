@@ -12,36 +12,30 @@
   <div id="root">
 
     <form>
-
       <h1>Cifrado Cesar</h1>
       <p>Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra
       un número fijo de posiciones más adelante en el alfabeto. 
       </p>
-
-
       <span>Indica el Nº</span>
       <input type="text" value="" id="offsetInput">
       <br>
-
       <h3>Escribe tu frase o palabra</h3>
       <br>
       <input type="text" value="" id="string">
       <br>
-
-      <button type="button" class="button" onclick="encodeGetData()"><span class="icon-lock"></span>Cifrar</button>
-      <button type="button" class="button" onclick="decodeGetData()"><span class="icon-unlocked"></span>Descifrar</button>
+      <button type="button" class="button" onclick="encodeData()" ><span class="icon-lock"></span>Cifrar</button>
+      <button type="button" class="button" onclick="decodeData()"><span class="icon-unlocked"></span>Descifrar</button>
       <button type="button" class="button" onclick="location.reload()">Limpiar</button>
 
-   </form> 
-     <h3>Mensaje</h3>
-     <div id="messageDiv"> 
-     </div>
+     </form> 
+   <h3>Mensaje</h3>
+   <div id="messageDiv"> 
+   </div>
 </div>
 
 <script src="index.js"></script>
-<script src="cipher.js"></script>
+<script src="cipher.js"></script> 
 <!-- <script src="index-de-prueba.js"></script>
 <script src="cipher-de-prueba.js"></script> -->
-
 </body>
 </html>

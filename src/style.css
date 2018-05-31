@@ -9,7 +9,7 @@ h1
 }
 h3
  {
- color:#423a65;
+   color:#423a65;
 }
 
 #root
@@ -53,7 +53,7 @@ h3
   transition-duration: .5s;
   margin-top: 10px;
   cursor: pointer;
-
+  font-family: 'Exo', sans-serif;
 }
 
 .button:hover {
